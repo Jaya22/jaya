@@ -5,7 +5,7 @@ int check_anagram(char [], char []);
 int main()
 {
    char a[100], b[100];
-   int flag;
+   int flag1;
  
    printf("Enter first string\n");
    gets(a);
@@ -13,9 +13,9 @@ int main()
    printf("Enter second string\n");
    gets(b);
  
-   flag = check_anagram(a, b);
+   flag1 = check_anagram(a, b);
  
-   if (flag == 1)
+   if (flag1 == 1)
       printf("\"%s\" and \"%s\" are anagrams.\n", a, b);
    else
       printf("\"%s\" and \"%s\" are not anagrams.\n", a, b);
